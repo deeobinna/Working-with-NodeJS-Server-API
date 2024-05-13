@@ -7,7 +7,7 @@
   },
   "name": "nodeserver",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "server2.js",
   "devDependencies": {},
   "author": "",
   "license": "ISC",
