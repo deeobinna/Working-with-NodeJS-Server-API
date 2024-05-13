@@ -17,6 +17,7 @@ const server = http.createServer((req,res)=>{
         req.on('end',()=>{
             const {title, comedian,year} = JSON.parse(body)
             const newjoke = {
+                id: db.length + 1,
                 title,
                 comedian,
                 year
